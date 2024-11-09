@@ -2,7 +2,6 @@
 
 thank you for the fortunes josh madison and github user reggi - sources included
 - https://joshmadison.com/2008/04/20/fortune-cookie-fortunes/
-
 - https://github.com/reggi/fortune-cookie/blob/master/fortune-cookie.json
 
 example output included
