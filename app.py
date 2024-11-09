@@ -9,7 +9,7 @@ from fpdf import FPDF
 class PDF():
     def __init__(self, name_input, fortune):
         self._pdf = FPDF()
-        self._pdf.set_page_background(background="lulu.jpg")
+        self._pdf.set_page_background(background="lulu2.jpg")
         self._pdf.add_page()
         self._pdf.set_auto_page_break(auto=False, margin=0)
         self._pdf.set_text_color(255, 255, 255)

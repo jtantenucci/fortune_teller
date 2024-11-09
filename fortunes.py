@@ -348,9 +348,9 @@ def main():
 
 
 def fortune_gen():
-    number = random.randint(0, 338)
-    print(fortunes[number])
-    return fortunes[number]
+    number = random.randint(0, len(fortunes) - 1)
+    print(fortunes[number].lower())
+    return fortunes[number].lower()
 
 
 if __name__ == "__main__":
